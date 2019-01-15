@@ -51,9 +51,9 @@ color: #000 !important;
  #myFooter {
     background-color: #000033;
     color: white;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     width: -webkit-fill-available;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 
 #myFooter .footer-copyright {
@@ -274,7 +274,7 @@ filter: alpha(opacity=80);
     object-fit: cover;
     filter: brightness(.7);
 }
-/*block for dates*/
+/*block for dates with images column*/
 .date-blk {
   border-radius: 3px;
     display: inline-block;
@@ -302,6 +302,7 @@ filter: alpha(opacity=80);
     font-size: 15px;
     color: #fff;
 }
+/*block for dates in news and events section*/
 .date-blk2 {
   border-radius: 3px;
     display: inline-block;
@@ -329,3 +330,27 @@ filter: alpha(opacity=80);
     font-size: 13px;
     color: #fff;
 }
+/*last link of tpo website*/
+.last-link{
+ background-color: #f36b3b ;
+ height: inherit;
+ position: relative;
+color: #fff !important;
+}
+.btn-tpo{
+  background-color: #f36b3b !important;
+    color: #fff;
+  border-color:#fff !important ;
+  border-radius: 12px;
+}
+.btn-tpo:hover{
+  color: #fff;
+}
+.txt-tpo{
+  margin-top: 15px;
+}
+
+/*photo gallery images*/
+.abc{
+    margin-bottom: 50px;
+  }
