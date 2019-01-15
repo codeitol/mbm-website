@@ -352,5 +352,13 @@ color: #fff !important;
 
 /*photo gallery images*/
 .abc{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
+.photo-gal{
+  padding-right: 1px;
+  padding-left: 1px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px; 
+}
