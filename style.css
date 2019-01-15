@@ -214,3 +214,118 @@ filter: alpha(opacity=80);
     overflow-y: auto;
 }
 
+
+/*Discover more css*/
+/*Discover more image title*/
+.img-title{
+    position: absolute;
+     top: 40%;
+     left: 0;
+     right: 0;
+     text-align: center;
+     transform: translateY(-50%);
+     font-size: 18px;
+     font-weight: 600;
+     color: #fff;
+     z-index: 1;
+ 
+}
+/*discover more whole block*/
+.dis-block{
+     margin-bottom: 30px;
+     border-radius: 3px;
+    }
+
+/*discover more image*/
+.dis-img{
+    filter:brightness(.5);
+    -webkit-transform: scale(1);
+     transform: scale(1);
+     -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+    }
+/*discover more on hover optioons*/
+.dis-block:hover .dis-img{
+
+ -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+     
+    }
+
+.card{
+  border: 0px !important;
+  border-color: white !important;
+  border-radius: 0rem;
+  padding-right: 45px;
+}
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+/*image with date*/
+
+.card-pic{
+    width: 100%;
+    height: 10vw !important;
+    object-fit: cover;
+    filter: brightness(.7);
+}
+/*block for dates*/
+.date-blk {
+  border-radius: 3px;
+    display: inline-block;
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    margin-right: 20px;
+    text-transform: uppercase;
+    width: 90%;
+    height: 95%;
+    background: #02294e;
+    background: -webkit-linear-gradient(to top, #012951, #03294e);
+    background: linear-gradient(to top, #012951, #03294e);
+}
+.date-blk span:first-child{
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 0px;
+    line-height: 25px;
+    color: #fff;
+}
+.date-blk span:last-child{
+    font-size: 15px;
+    color: #fff;
+}
+.date-blk2 {
+  border-radius: 3px;
+    display: inline-block;
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    margin-right: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 80%;
+    background: #02294e;
+    background: -webkit-linear-gradient(to top, #012951, #03294e);
+    background: linear-gradient(to top, #012951, #03294e);
+}
+.date-blk2 span:first-child{
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 0px;
+    line-height: 25px;
+    color: #fff;
+}
+.date-blk2 span:last-child{
+    font-size: 13px;
+    color: #fff;
+}
